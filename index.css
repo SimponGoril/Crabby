@@ -1,0 +1,46 @@
+button {
+    color: #F8D6A3;
+    background-color: #5F5153;
+    font-size: 19px;
+    border-radius: 14px;
+    padding: 15px 20px;
+    cursor: pointer
+}
+button:hover {
+    color: #F8D6A3;
+    background-color: #332532;
+}
+
+.game {
+    margin: auto;
+    width: 50%;
+}
+
+#ui {
+    position: absolute;
+    background-color: white;
+    padding: 0px;
+    top: 20;
+    left: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infobox {
+    position: absolute;
+    top: 2%;
+    left: 45%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    color: red;
+    font-size: 1.5vw;
+}
+
+#ui div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hide {
+    display: none
+}

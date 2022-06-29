@@ -1,0 +1,7 @@
+{
+    "extends": "@parcel/config-default",
+    "transformers": {
+        "*.tmx": ["@parcel/transformer-raw"],
+        "*.wav": ["@parcel/transformer-raw"]
+    }
+}
